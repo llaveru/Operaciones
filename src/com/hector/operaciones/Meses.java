@@ -8,7 +8,7 @@ public class Meses {
 	public void numeroDiasMesActual() {
 		
 		Date date = new Date();
-		int numeroMes= date.getMonth();
+		int numeroMes= date.getMonth()+1;
 		
 		System.out.println(numeroMes);
 		
