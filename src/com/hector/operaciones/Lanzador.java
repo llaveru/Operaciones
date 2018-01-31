@@ -12,7 +12,7 @@ public class Lanzador {
 		
 		JOptionPane panelInf = new JOptionPane();
 		panelInf.setMessage("este mes tienes.");
-		
+		panelInf.showMessageDialog(null,"aasdfasdfasdf");
 		Meses meses= new Meses();
 		meses.numeroDiasMesActual();
 	}
